@@ -8,6 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+//import /scr/test/
+
+//#include Test_tmp.java
+
 public class Main {
 
     public static void main(String[] args) {
@@ -23,11 +27,14 @@ public class Main {
     // WebElement inputBtn = driver1.findElement(By.id("Text")) ;
     //input.setKeys("sdfsdf");
 
-    input.sendKeys("asdasd");
-    input.sendKeys(Keys.ENTER);
+    //input.sendKeys("asdasd");
+    //input.sendKeys(Keys.ENTER);
 
-    //YandexMainPage yandexMainPage = new YandexMainPage(driver);
-    //yandexMainPage.searchFor("google");
+    YandexMainPage yandexMainPage = new YandexMainPage(driver);
+    yandexMainPage.searchFor("google");
+
+    //Test_tmp myTest = new Test_tmp()
+
 
 
     }
