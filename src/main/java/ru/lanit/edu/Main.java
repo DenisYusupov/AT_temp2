@@ -16,18 +16,19 @@ public class Main {
     WebDriver driver = new ChromeDriver();
 
     driver.get("https:\\ya.ru") ;
+
+
     WebElement input = driver.findElement(By.id("text")) ;
 
-   // WebElement inputBtn = driver1.findElement(By.id("Text")) ;
-
+    // WebElement inputBtn = driver1.findElement(By.id("Text")) ;
     //input.setKeys("sdfsdf");
+
     input.sendKeys("asdasd");
     input.sendKeys(Keys.ENTER);
 
+    //YandexMainPage yandexMainPage = new YandexMainPage(driver);
+    //yandexMainPage.searchFor("google");
 
 
-
-
-    System.out.println("Hello World!");
     }
 }
