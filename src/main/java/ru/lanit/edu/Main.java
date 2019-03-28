@@ -17,23 +17,23 @@ public class Main {
     public static void main(String[] args) {
     System.setProperty("webdriver.chrome.driver","E:\\ch_driver\\chromedriver.exe") ;
 
-    WebDriver driver = new ChromeDriver();
+    //WebDriver driver = new ChromeDriver();
 
-    driver.get("https:\\ya.ru") ;
+    //driver.get("https:\\ya.ru") ;
 
 
-    WebElement input = driver.findElement(By.id("text")) ;
+    //   firstTest();
 
-    // WebElement inputBtn = driver1.findElement(By.id("Text")) ;
-    //input.setKeys("sdfsdf");
+    //YandexMainPage yandexMainPage = new YandexMainPage(driver);
+    //yandexMainPage.searchArr.searchFor("google");
 
-    //input.sendKeys("asdasd");
-    //input.sendKeys(Keys.ENTER);
 
-    YandexMainPage yandexMainPage = new YandexMainPage(driver);
-    yandexMainPage.searchFor("google");
+
+
 
     //Test_tmp myTest = new Test_tmp()
+
+
 
 
 
